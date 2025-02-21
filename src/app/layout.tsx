@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
-import { Roboto_Flex } from 'next/font/google';
+import { Nunito } from 'next/font/google';
 import './globals.scss';
 
-const robotoFlex = Roboto_Flex({
+const nunito = Nunito({
   subsets: ['latin', 'cyrillic'],
 });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={robotoFlex.className}>{children}</body>
+      <body className={nunito.className}>{children}</body>
     </html>
   );
 }

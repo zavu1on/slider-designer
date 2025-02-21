@@ -7,6 +7,7 @@
   "plugins": ["stylelint-scss", "stylelint-order"],
   "rules": {
     "at-rule-no-unknown": null,
+    "at-rule-no-deprecated": null,
     "scss/at-rule-no-unknown": null,
     "order/properties-alphabetical-order": true,
     "declaration-block-no-duplicate-properties": true
